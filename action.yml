@@ -1,5 +1,5 @@
-name: 'Environment variables to Dotenv'
-description: 'Appends environment variables to a dotenv file'
+name: 'Environment variables to Dotenv in Github actions'
+description: 'Appends environment variables to a dotenv file within github actions run'
 inputs:
   variableName:
     description: 'Name of environment variable to append to a dotenv file'
