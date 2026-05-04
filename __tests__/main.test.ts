@@ -1,3 +1,5 @@
+import {jest, describe, it, expect, beforeEach, afterEach} from '@jest/globals';
+
 jest.mock('@actions/core');
 
 import * as fs from "fs";
