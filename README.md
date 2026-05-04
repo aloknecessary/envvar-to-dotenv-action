@@ -1,10 +1,10 @@
-![](https://github.com/CallePuzzle/envvar-to-dotenv-action/workflows/Test/badge.svg)
+![](https://github.com/aloknecessary/envvar-to-dotenv-action/workflows/Test/badge.svg)
 
 Environment variable to dotenv GitHub Action
 ============================================
 Action to append environment variables to a dotenv file.
 
-This repo is inspired/folked by [https://github.com/TickX/var-to-dotenv](https://github.com/TickX/var-to-dotenv).
+
 
 Usage
 ---------
@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Test name
-        uses: CallePuzzle/envvar-to-dotenv-action@0.1.0
+        uses: aloknecessary/envvar-to-dotenv-action@2.1.0
         with:
           variableName: ENV_VAR1
 ```
@@ -36,7 +36,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Test name
-        uses: CallePuzzle/envvar-to-dotenv-action@0.1.0
+        uses: aloknecessary/envvar-to-dotenv-action@2.1.0
         with:
           variableNames: ENV_VAR1,ENV_VAR2
 ```
@@ -52,7 +52,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Test name
-        uses: CallePuzzle/envvar-to-dotenv-action@0.1.0
+        uses: aloknecessary/envvar-to-dotenv-action@2.1.0
         with:
           variableNamesByFilter: ^ENV_(VAR.*)
 ```
