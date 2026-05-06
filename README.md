@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Test name
-        uses: aloknecessary/envvar-to-dotenv-action@2.1.0
+        uses: aloknecessary/envvar-to-dotenv-action@v2.1.0
         with:
           variableName: ENV_VAR1
 ```
@@ -36,7 +36,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Test name
-        uses: aloknecessary/envvar-to-dotenv-action@2.1.0
+        uses: aloknecessary/envvar-to-dotenv-action@v2.1.0
         with:
           variableNames: ENV_VAR1,ENV_VAR2
 ```
@@ -52,7 +52,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Test name
-        uses: aloknecessary/envvar-to-dotenv-action@2.1.0
+        uses: aloknecessary/envvar-to-dotenv-action@v2.1.0
         with:
           variableNamesByFilter: ^ENV_(VAR.*)
 ```
